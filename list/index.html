@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OSKI · Mega Software Dashboard</title>
+<style>
+body {font-family: Arial, sans-serif; background:#0b0e14; color:#eef3ff; margin:0; padding:0;}
+header {background:#121621; padding:20px; text-align:center; font-size:2em; color:#4f46e5;}
+section {padding:20px;}
+h2 {color:#fbbf24;}
+ul {list-style:none; padding-left:0;}
+li {margin:10px 0; padding:8px; background:#1f2230; border-radius:8px;}
+a {color:#4f46e5; text-decoration:none;}
+a:hover {text-decoration:underline;}
+.category {margin-top:20px;}
+.hash {color:#fbbf24;}
+</style>
+</head>
+<body>
+<header>OSKI · Mega Software Dashboard</header>
+
+<section>
+    <div class="category">
+        <h2>🎵 Producción Musical</h2>
+        <ul>
+            <li id="audacity"><span class="hash">#Audacity</span> - <a href="https://www.audacityteam.org/download/" target="_blank">Audacity</a> - Grabación y edición de audio simple y ligera</li>
+            <li id="lmms"><span class="hash">#LMMS</span> - <a href="https://lmms.io/download/" target="_blank">LMMS</a> - DAW ligero, MIDI, sintetizadores</li>
+            <li id="reaper"><span class="hash">#REAPER</span> - <a href="https://www.reaper.fm/download.php" target="_blank">REAPER</a> - DAW casi “RTX” para PCs limitadas</li>
+            <li id="milkytracker"><span class="hash">#MilkyTracker</span> - <a href="https://milkytracker.titandemo.org/" target="_blank">MilkyTracker</a> - Tracker retro, módulos MOD/XM</li>
+            <li id="soundtrap"><span class="hash">#Soundtrap</span> - <a href="https://www.soundtrap.com/" target="_blank">Soundtrap</a> - Alternativa online simple</li>
+        </ul>
+    </div>
+
+    <div class="category">
+        <h2>🖌️ Diseño Gráfico & Edición de Video</h2>
+        <ul>
+            <li id="photopea"><span class="hash">#Photopea</span> - <a href="https://www.photopea.com/" target="_blank">Photopea</a> - Photoshop online ligero</li>
+            <li id="gimp"><span class="hash">#GIMP</span> - <a href="https://www.gimp.org/downloads/" target="_blank">GIMP</a> - Editor de imágenes offline y eficiente</li>
+            <li id="krita"><span class="hash">#Krita</span> - <a href="https://krita.org/en/download/krita-desktop/" target="_blank">Krita</a> - Pintura digital</li>
+            <li id="obs"><span class="hash">#OBSStudio</span> - <a href="https://obsproject.com/download" target="_blank">OBS Studio</a> - Grabación y streaming</li>
+            <li id="streamlabs"><span class="hash">#Streamlabs</span> - <a href="https://streamlabs.com/" target="_blank">Streamlabs</a> - Streaming y overlays</li>
+            <li id="wevideo"><span class="hash">#WeVideo</span> - <a href="https://www.wevideo.com/" target="_blank">WeVideo</a> - Edición online de video</li>
+        </ul>
+    </div>
+
+    <div class="category">
+        <h2>💻 Programación & IDEs</h2>
+        <ul>
+            <li id="vscode"><span class="hash">#VSCode</span> - <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> - Editor ligero y potente</li>
+            <li id="java"><span class="hash">#JavaIDE</span> - <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank">Java JDK</a> - Programación Java</li>
+            <li id="eclipse"><span class="hash">#Eclipse</span> - <a href="https://www.eclipse.org/downloads/" target="_blank">Eclipse IDE</a></li>
+            <li id="netbeans"><span class="hash">#NetBeans</span> - <a href="https://netbeans.apache.org/download/index.html" target="_blank">NetBeans</a></li>
+            <li id="github"><span class="hash">#GitHub</span> - <a href="https://github.com/" target="_blank">Repositorios y control de versiones</a></li>
+            <li id="vercel"><span class="hash">#Vercel</span> - <a href="https://vercel.com/" target="_blank">Hosting y deployment</a></li>
+            <li id="supabase"><span class="hash">#Supabase</span> - <a href="https://supabase.com/" target="_blank">Base de datos y auth ligera</a></li>
+            <li id="replit"><span class="hash">#Replit</span> - <a href="https://replit.com/" target="_blank">Coding online</a></li>
+        </ul>
+    </div>
+
+    <div class="category">
+        <h2>🎮 Juegos & STEM</h2>
+        <ul>
+            <li id="tinkercad"><span class="hash">#TinkerCAD</span> - <a href="https://www.tinkercad.com/" target="_blank">Diseño 3D y electrónica</a></li>
+            <li id="arduino"><span class="hash">#ArduinoIDE</span> - <a href="https://www.arduino.cc/en/software" target="_blank">Programación de placas Arduino</a></li>
+            <li id="gdevelop"><span class="hash">#GDevelop</span> - <a href="https://gdevelop.io/" target="_blank">Crear juegos sin mucho código</a></li>
+            <li id="unity"><span class="hash">#Unity</span> - <a href="https://unity.com/download" target="_blank">Motor de juegos</a></li>
+            <li id="unreal"><span class="hash">#UnrealEngine</span> - <a href="https://www.unrealengine.com/en-US/download" target="_blank">Motor AAA</a></li>
+            <li id="clonehero"><span class="hash">#CloneHero</span> - <a href="https://clonehero.net/" target="_blank">Juego musical ligero</a></li>
+        </ul>
+    </div>
+
+    <div class="category">
+        <h2>🛠️ Utilidades & Networking</h2>
+        <ul>
+            <li id="fing"><span class="hash">#Fing</span> - <a href="https://www.fing.com/products/fing-app" target="_blank">Escanear y reconectar redes</a></li>
+            <li id="minitools"><span class="hash">#MiniTools</span> - <a href="https://www.partitionwizard.com/free-partition-manager.html" target="_blank">Gestión de discos y particiones</a></li>
+            <li id="recuva"><span class="hash">#Recuva</span> - <a href="https://www.ccleaner.com/recuva" target="_blank">Recuperar archivos borrados</a></li>
+            <li id="rufus"><span class="hash">#Rufus</span> - <a href="https://rufus.ie/" target="_blank">Crear USB booteable</a></li>
+        </ul>
+    </div>
+
+    <div class="category">
+        <h2>💾 Tips Android ISO / Boot USB</h2>
+        <ul>
+            <li>Descarga Android-x86 ISO oficial.</li>
+            <li>Usa <strong>Rufus</strong>: selecciona ISO, crea USB booteable FAT32/MBR.</li>
+            <li>En BIOS/UEFI: arranca desde USB (modo Legacy/32-bit si tu PC es vieja).</li>
+            <li>Para usar Android en partición: elige instalación en partición libre, no sobrescribas Windows.</li>
+            <li>Para Fing: escanea redes, identifica tu WiFi, vuelve a conectar desde ajustes, reinicia adaptador si es necesario.</li>
+        </ul>
+    </div>
+
+    <div class="category">
+        <h2>🔗 Ver Source / Wiki</h2>
+        <ul>
+            <li><a href="https://ozclef.github.io/top-software-bio-us-enterprise/wiki/" target="_blank">Wiki / Source del OSKI Dashboard</a></li>
+        </ul>
+    </div>
+</section>
+</body>
+</html>
